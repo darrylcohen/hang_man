@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+  </head>
+  <body>
+    <div class="container" id="container">
+      <header>
+        <h1>HANG MAN</h1>
+        <div class="timeContainer">
+          <div class="time">
+            <p>MAX TIME</p>
+            <div class="timeCounter" id="maxGameTime">
+            </div>
+          </div>
+          <div class="time">
+            <p>GAME TIME</p>
+            <div class="timeCounter" id="gameTime">
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="midContainer">
+        <div class="keyBoardContainer">
+          <p>KEYBOARD</p>
+          <div class="keyBoard" id="keyBoard">
+          </div>
+        </div>
+
+        <div class="guessingWord">
+          <p>GUESS THE WORD</p>
+          <div class="gameWord" id="gameWord">
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="wrapper">
+            <p>LETTERS GUESSED</p>
+            <div class="wrongLetters" id="wrongLetters">
+            </div>
+          </div>
+          <div class="score" >
+            <p>Words Guessed Correctly</p>
+            <p id="score"></p>
+          </div>
+          <div class="wrapper">
+            <p>LIVES LEFT</p>
+            <div class="hangingMan" id="hangingMan">
+            </div>
+          </div>
+        </div>
+        <button id="playAgain">Play Again</button>
+
+        <div class="lowerContainer">
+          <div class="message" >
+            <p id="message"></p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="wordGenerator" id = "wordGenerator">
+        <h1>HANGMAN</h1>
+        <h2>WORD GENERATOR</h2>
+        <div class="words">
+          <h3>Add a word or Click a word and then click Remove </h3>
+          <input id="word" type="text">
+          <div class="wordsContainer">
+            <button id="add" >Add</button>
+            <button id="remove">Remove</button>
+          </div>
+
+          <ul class="wordList" id="wordList">
+          </ul>
+          <button id="playGame">PLAY GAME</button>
+        </div>
+    </div>
+
+    <footer>
+      Darryl Cohen 2017 &#169
+    </footer>
+
+  </body>
+    <script src="hangmanData.js"></script>
+    <script src="hangmanLogic.js"></script>
+</html>
