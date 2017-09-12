@@ -14,7 +14,7 @@ My Approach
 
 I used objects to split the functionality.
 
-[Play the Game](https://darrylcohen.github.io/dot_to_dot/)
+[Play the Game](https://darrylcohen.github.io/hang_man/)
 
 [Please visit my web site](https://www.darrylcohen.com.au)
 
